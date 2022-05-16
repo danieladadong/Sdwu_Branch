@@ -1,0 +1,13 @@
+import os
+os.system("scrapy crawl nywyxy -o 外国语学院要闻数据.csv")
+os.system("scrapy crawl jyxy -o 教育学院要闻数据.csv")
+os.system("scrapy crawl whcb -o 文化传播学院要闻数据.csv")
+os.system("scrapy crawl whys -o 艺术设计学院要闻数据.csv")
+os.system("scrapy crawl gsxy -o 工商管理学院要闻数据.csv")
+os.system("scrapy crawl kjxy -o 会计学院要闻数据.csv")
+os.system("scrapy crawl lyxy -o 旅游学院要闻数据.csv")
+os.system("scrapy crawl shyfxy -o 社会与法学院要闻数据.csv")
+os.system("scrapy crawl its -o 数科学院要闻数据.csv")
+os.system("scrapy crawl marx -o 马克思学院要闻数据.csv")
+os.system("scrapy crawl jjxy -o 经济学院要闻数据.csv")
+os.system("scrapy crawl yyxy -o 音乐学院要闻数据.csv")
